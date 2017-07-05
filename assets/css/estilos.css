@@ -1,0 +1,129 @@
+*{
+    font-family: "lato", sans-serif;
+}
+
+div.small-4 a,
+section.footer ul li a{
+    color: #333;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+section.footer ul{
+    list-style: none !important;
+}
+div.small-4 a:hover,
+section.footer ul li a:hover{
+    color: #B7B7B7;
+}
+
+.slider {
+    width: 60%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 230px;
+    height: 230px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+ul.slick-dots{
+    display: none !important;
+}
+
+hr.linea{
+    max-width: 100%;
+}
+
+.column:last-child:not(:first-child){
+    float: left !important;
+}
+
+#app-store{
+    width: 129px;
+}
+
+.menu>li>a i{
+    font-size: 31px;
+    color:#000;
+}
+
+.menu>li>a i.icon-twitter-square:hover{
+    color:#4099FF;
+}
+
+.menu>li>a i.icon-facebook-square:hover{
+    color:#4D69A2;
+}
+
+.menu>li>a i.icon-pinterest-square:hover{
+    color:#C92228;
+}
+
+.menu>li>a i.icon-instagram:hover{
+    color:#517FA4;
+}
+
+div.small-12.medium-3.column ul li a{
+    padding: 0 0.1rem;
+}
+
+div.input-button .color-black{
+    background-color: #000;
+}
+
+div.small-12.medium-4.column p{
+    font-size: 0.8rem;
+}
+
+div.small-12.medium-4.column p:last-child{
+    font-size: 0.7rem;
+}
+
+div.input{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+ul.vertical{
+    margin-left: 0;
+}
+@media (max-width:696px){
+    .slick-arrow{
+        visibility: hidden;
+    }
+    div.input{
+        flex-wrap: wrap;
+    }
+    div.small-12.medium-3,
+    div.small-12.medium-4{
+        margin-bottom: 2rem;
+    }
+    .menu-inferior{
+        text-align:center;
+    }
+}
+hr.linea-vertical{
+    position: absolute;
+    height: 60.5%;
+    top: -40px;
+    left: 21%;
+    border: 0.3px solid #d5cbcb;
+
+}
+#linea-vertical{
+    position: relative;
+}
+@media (max-width:1107px){
+    hr.linea-vertical{
+        display: none;
+    }
+}

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'icomoon';
+<<<<<<< HEAD
+  src:  url('fonts/icomoon.eot?7nmgo');
+  src:  url('fonts/icomoon.eot?7nmgo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7nmgo') format('truetype'),
+    url('fonts/icomoon.woff?7nmgo') format('woff'),
+    url('fonts/icomoon.svg?7nmgo#icomoon') format('svg');
+=======
+  src:  url('fonts/icomoon.eot?hrx6bs');
+  src:  url('fonts/icomoon.eot?hrx6bs#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hrx6bs') format('truetype'),
+    url('fonts/icomoon.woff?hrx6bs') format('woff'),
+    url('fonts/icomoon.svg?hrx6bs#icomoon') format('svg');
+>>>>>>> products
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+<<<<<<< HEAD
+.icon-question-circle:before {
+  content: "\e900";
+}
+.icon-instagram:before {
+  content: "\e901";
+}
+.icon-pinterest-square:before {
+  content: "\e902";
+}
+.icon-facebook-square:before {
+  content: "\e903";
+}
+.icon-twitter-square:before {
+  content: "\e904";
+}
+=======
+.icon-chevron-right:before {
+  content: "\e900";
+}
+.icon-help:before {
+  content: "\e905";
+}
+.icon-truck:before {
+  content: "\e901";
+}
+.icon-shopping-bag:before {
+  content: "\e902";
+}
+.icon-heart-o:before {
+  content: "\e903";
+}
+.icon-pinterest-p:before {
+  content: "\e904";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-tumblr:before {
+  content: "\eab9";
+}
+>>>>>>> products
